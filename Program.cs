@@ -25,7 +25,7 @@ class Program
                 Console.WriteLine("- C'est pair!");
             }
             // Demandez à l'utilisateur s'il veut proposer un autre nombre
-            Console.WriteLine("- Veut-tu donner un autre nombre? (taper [y] si oui, tout autre réponse ferme le programme)");
+            Console.WriteLine("- Voulez-vous donner un autre nombre? (tapez [y] si oui, tout autre réponse ferme le programme)");
             string answer = Console.ReadLine();
             //  On lui permet de le faire lorsqu'il entre "y". Dans les autres cas, on termine le programme
             if (!(answer == "y"))
